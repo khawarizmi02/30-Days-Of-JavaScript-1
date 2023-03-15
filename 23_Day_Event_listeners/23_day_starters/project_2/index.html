@@ -6,9 +6,19 @@
 </head>
 
 <body>
+<input type="text" id="mass" placeholder="say something" />
+<p></p>
 
+<script>
+	const input = document.querySelector('input')
+	const p = document.querySelector('p')
 
-	<script src="./scripts/main.js"></script>
+	input.addEventListener('blur', (e) => {
+		p.textContent = 'Field is required'
+		p.style.color = 'red'
+
+	})
+</script>
 
 </body>
 

@@ -193,3 +193,4 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
+module.exports = countries;

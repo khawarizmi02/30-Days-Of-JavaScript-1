@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>30DaysOfJavaScript:11 Day</title>
+  </head>
 
-<head>
-	<title>30DaysOfJavaScript:11 Day </title>
-</head>
+  <style>
+    h1 {
+      text-align: center;
+    }
 
-<body>
-	<h1>30DaysOfJavaScript:11 Day</h1>
-	<h2>Destructuring and Spread</h2>
+    h2 {
+      text-align: center;
+    }
+    div {
+      display:block;
+    }
+    .user-input{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-	<script src="./data/countries_data.js"></script>
-	<script src="./scripts/main.js"></script>
+  </style>
+  <body>
+    <h1>30DaysOfJavaScript:28 Day</h1>
+    <h2>Challenge leaderboard</h2>
 
-</body>
+    <div class"user-input">
+      <input id="fname" type="fname" name="fname" value="First name">
+      <input id="lname" type="lname" name="lname" value="Last name">
+      <input id="country" type="country" name="country" value="Country">
+      <input id="score" type="score" name="score" value=40>
+      <button id="add-player" type="add-player">Add Player</button>
+    </div>
 
+    <div id="leaderboard" class="leaderboard"></div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>

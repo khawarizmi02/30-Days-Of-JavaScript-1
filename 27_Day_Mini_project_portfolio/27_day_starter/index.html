@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>30DaysOfJavaScript:11 Day</title>
+  </head>
 
-<head>
-	<title>30DaysOfJavaScript:11 Day </title>
-</head>
+  <style>
+    body {
+      background-color: #faf9f6;
+    }
+    h1 {
+      text-align: center;
+    }
 
-<body>
-	<h1>30DaysOfJavaScript:11 Day</h1>
-	<h2>Destructuring and Spread</h2>
+    p {
+      text-align: center;
+      font-size: 20px;
+    }
+    container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+    .box {
+      border-style: solid;
+      border-radius: 10px;
+      background-color: blueviolet;
+    }
+  </style>
+  <body>
+    <h1>Hello! My name is Khawa</h1>
+    <p>I'm a javascript programmer.</p>
 
-	<script src="./data/countries_data.js"></script>
-	<script src="./scripts/main.js"></script>
+    <container id="container">
+      <div class="box" id="box">
+        <h1>Javascript</h1>
+        <p>I have learn this programming language for more than 1 year</p>
+      </div>
+      <div class="box" id="box">
+        <h1>Java</h1>
+        <p>I have learn this programming language for more than 1 year</p>
+      </div>
 
-</body>
+      <div class="box" id="box">
+        <h1>C++</h1>
+        <p>I have learn this programming language for more than 1 year</p>
+      </div>
+    </container>
 
+    <script src="./data/countries_data.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>

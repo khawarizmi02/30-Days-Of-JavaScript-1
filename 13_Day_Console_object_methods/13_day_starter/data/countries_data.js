@@ -2011,3 +2011,8 @@ const countries = [
     currency: 'Botswana pula'
   }
 ]
+
+console.table(countries);
+console.group('names');
+console.log(countries);
+console.groupEnd();
